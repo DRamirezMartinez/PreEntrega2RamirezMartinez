@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="css/img/icon web arcade one.png">
+
+  <title>Arcade One</title>
+</head>
+
+<body>
+
+  <!--==============================================-->
+  <!--ENCABEZADO-->
+  <!--==============================================-->
+
+  <header class="container-fluid bg-primary d-flex justify-content-center" > <!--container fluid para que abarque el 100%
+d-Flex (es display flex justificar contenido)-->
+    <p class="text-light mb-0 p-2 fs-6 frase">La vida se trata de determinación. El resultado es secundario</p> <!--texto blanco margin botom 0-->
+  </header>
+  <!--==============================================-->
+  <!--MENU-->
+  <!--==============================================-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3" id="menu">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <span class="text-light fs-5 fw-bold">Arcade One</span>
+        <!--meti el texto del navbar en un elemento span para darle estilos-->
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="novedades.html">Novedades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tutoriales.html">Tutoriales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reviews.html">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--==============================================-->
+  <!--FIN MENU-->
+  <!--==============================================-->
+
+  <!--==============================================-->
+  <!--SLIDER DE IMAGENES-->
+  <!--==============================================-->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="css/img/mariolyugi copy.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Etiqueta de la primera diapositiva</h5>
+          <p>Algún contenido placeholder representativo para la primera diapositiva.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="css/img/metroid.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Etiqueta de la segunda diapositiva</h5>
+          <p>Algún contenido placeholder representativo para la segunda diapositiva.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="css/img/race.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Etiqueta de la tercera diapositiva</h5>
+          <p>Algún contenido placeholder representativo para la tercera diapositiva.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+  <!--==============================================-->
+  <!--FIN SLIDER DE IMAGENES-->
+  <!--==============================================-->
+
+  <!--==============================================-->
+  <!-- INTRO-->
+  <!--==============================================-->
+
+
+  <section class="w-50 mx-auto text-center pt-5" id="intro">
+    <h1 class="p-3 fs-2 border-top border-3">Este es un espacio unico, para aprender y descubrir el antes de los
+      <span class="text-primary">VideoJuegos</span>
+    </h1>
+
+    <p class="p-3 fs-4"><span class="text-primary">ExpertD.</span>
+      es un sitio en donde encontras tutoriales, reviews de productos, gameplays y novedades relacionadas con el mundo
+      de los
+      videojuegos</p>
+  </section>
+  <!--==============================================-->
+  <!-- FIN INTRO-->
+  <!--==============================================-->
+
+  <!--==============================================-->
+  <!-- ENTRADAS-->
+  <!--==============================================-->
+
+  <section class="container-fluid">
+    <div class="row w-75 mx-auto servicio-fila">
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-3 icono-wrap">
+        <img src="https://picsum.photos/200?random=4" alt="Arcade" width="180" height="160">
+        <div>
+          <h3 class="fs-5 mt-1 px-4 pb-1">Juegos Arcade</h3>
+          <p class="px-4 pb-7">Los videojuegos de arcade o arcadia [1]son un tipo de videojuegos que originalmente
+            fueron
+            concebidos para las máquinas recreativas </p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-3 icono-wrap">
+        <img src="https://picsum.photos/200?random=5" alt="Arcade" width="180" height="160">
+        <div>
+          <h3 class="fs-5 mt-1 px-4 pb-1">Juegos Indie</h3>
+          <p class="px-4"> juego hecho por pocas personas y con un bajo presupuesto” Tal vez la definición de un indie
+            no venga por el lado de la comercialización, sino de quien lo crea.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-3 icono-wrap">
+        <img src="https://picsum.photos/200?random=6" alt="Arcade" width="180" height="160">
+        <div>
+          <h3 class="fs-5 mt-1 px-4 pb-1">Juegos de plataforma</h3>
+          <p class="px-4">Un género muy popular en donde la principal misión consiste en conducir a un personaje dentro
+            de un escenario que presenta numerosas dificultades, incluyendo obstáculos, precipicios o enemigos.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-3 icono-wrap">
+        <img src="https://picsum.photos/200?random=7" alt="Arcade" width="180" height="160">
+        <div>
+          <h3 class="fs-5 mt-1 px-4 pb-1">Juegos De Carreras</h3>
+          <p class="px-4">Los videojuegos de carreras son aquellos en donde el jugador controla a un personaje o
+            vehículo que compite en una carrera contra otros vehículos a lo largo de una pista.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==============================================-->
+  <!--  FIN ENTRADAS-->
+  <!--==============================================-->
+
+  <!--==============================================-->
+  <!--NOVEDADES-->
+  <!--==============================================-->
+  <section>
+    <div class="w-75 m-auto text-center" id="novedades">
+      <h1 class="fs-2 p-3 mb-4 border-top border-3">Novedades del <span class="text-primary">
+        Mundo Gamer</span></h1>
+      <p class="fs-4">
+        Un videojuego no necesariamente debe pertenecer a un único género, muchos títulos presentan elementos combinados
+        de dos o más géneros distintos, en estos casos se considera al género que predomina para categorizarlo.
+      </p>
+    </div>  
+
+    <div class="card-group w-75 m-auto p-4">
+      <div class="card">
+        <img src="https://picsum.photos/900/200?random=8" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Título de la tarjeta</h5>
+          <p class="card-text">Esta es una tarjeta más amplia con texto de apoyo a continuación como introducción natural a contenido adicional. Este contenido es un poco más largo.</p>
+          <p class="card-text"><small class="text-muted">Última actualización hace 3 minutos</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/900/200?random=9" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Título de la tarjeta</h5>
+          <p class="card-text">Esta tarjeta tiene texto de apoyo a continuación como una introducción natural a contenido adicional.</p>
+          <p class="card-text"><small class="text-muted">Última actualización hace 3 minutos</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/900/200?random=10" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Título de la tarjeta</h5>
+          <p class="card-text">Esta es una tarjeta más amplia con texto de apoyo a continuación como introducción natural a contenido adicional. Esta tarjeta tiene un contenido aún más largo que la primera para mostrar esa acción de igual altura.</p>
+          <p class="card-text"><small class="text-muted">Última actualización hace 3 minutos</small></p>
+        </div>
+      </div>
+    </div>   
+  </section>
+
+  <!--==============================================-->
+  <!--FIN NOVEDADES-->
+  <!--==============================================-->
+
+  
+    <footer class="container-fluid bg-primary d-Flex justify-content-center ">
+      <p class="text-center text-light mb-0 p-2 fs-6">Diseñado por Diego Ramírez Martínez &copy; 2023</p>
+    </footer>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

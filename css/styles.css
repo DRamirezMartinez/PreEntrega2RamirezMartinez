@@ -1,0 +1,68 @@
+/*///////////////BODY///////////////*/
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden; /*para que el texto no sobrepase el cuadro o elemento que lo contiene*/
+}
+
+
+
+/*///////////////MENU///////////////*/
+#menu a{
+    font-size: 18;
+    font-weight: bold;    
+}
+
+#menu li > a:hover{
+    color: rgb(5, 166, 246);
+}
+
+
+/*/////////////SLIDER//////////////*/
+
+.carousel-inner{
+    max-height: 29rem; 
+}
+
+
+
+
+/*====================MEDIA QUERIESPANTALLA mediana===================*/
+
+    
+
+/*====================MEDIA QUERIESPANTALLA SM===================*/
+@media (max-width:768px){
+    #intro, #novedades{
+        width: 90% !important;
+    }
+
+    .frase{
+        text-align: center;
+        font-size: 12px !important;
+    }
+
+    #novedades p{
+        display: none;
+    }
+
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;       
+    }
+
+   
+    
+}
+
+/*====================MEDIA QUERIESPANTALLA EXTRA SM===================*/
+
+@media (max-width:576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        padding-top: 20px;        
+        justify-content: center !important;
+         
+        
+    }
+}

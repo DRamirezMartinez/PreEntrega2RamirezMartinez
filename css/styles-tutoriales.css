@@ -1,0 +1,30 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden; /*para que el texto no sobrepase el cuadro o elemento que lo contiene*/
+}
+
+#menu a{
+    font-size: 18;
+    font-weight: bold;    
+}
+
+#menu li > a:hover{
+    color: rgb(5, 166, 246);
+}
+
+/*====================MEDIA QUERIESPANTALLA SM===================*/
+@media (max-width:768px){
+    #intro{
+        width: 90% !important;
+    }
+
+    .frase{
+        text-align: center;
+        font-size: 12px !important;
+    }
+
+    .seccion{
+        flex-wrap: wrap;
+        width: 90% !important;
+    }
+}
