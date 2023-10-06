@@ -8,57 +8,65 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="css/img/icon web arcade one.png">
-
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
   <title>Arcade One</title>
 </head>
 
 <body>
 
-  <!--==============================================-->
-  <!--ENCABEZADO-->
-  <!--==============================================-->
+  <header>
 
-  <header class="container-fluid bg-primary d-flex justify-content-center" > <!--container fluid para que abarque el 100%
-d-Flex (es display flex justificar contenido)-->
-    <p class="text-light mb-0 p-2 fs-6 frase">La vida se trata de determinación. El resultado es secundario</p> <!--texto blanco margin botom 0-->
-  </header>
-  <!--==============================================-->
-  <!--MENU-->
-  <!--==============================================-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3" id="menu">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <span class="text-light fs-5 fw-bold">Arcade One</span>
-        <!--meti el texto del navbar en un elemento span para darle estilos-->
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="novedades.html">Novedades</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="tutoriales.html">Tutoriales</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="reviews.html">Reviews</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacto.html">contacto</a>
-          </li>
-        </ul>
+    <div class="container-fluid banner-up">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="d-flex justify-content-center">
+            <img class="img-fluid logo-item" src="css/img/arcadeone_logo_site.png" alt="">
+          </div>
+        </div>
       </div>
     </div>
-  </nav>
 
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark  p-3 pb-3" id="menu">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <!--<span class="text-light fs-5 fw-bold">Arcade One</span>-->
+          <!--meti el texto del navbar en un elemento span para darle estilos-->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav position-absolute top-50 start-50 translate-middle">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="novedades.html">Novedades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tutoriales.html">Tutoriales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reviews.html">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
   <!--==============================================-->
   <!--FIN MENU-->
   <!--==============================================-->
@@ -116,120 +124,276 @@ d-Flex (es display flex justificar contenido)-->
   <!-- INTRO-->
   <!--==============================================-->
 
+  <main>
+    <div class="container my-5">
+      <section>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="section-cards">
+              <h2 class="pt-2 encabezados"><span class="material-symbols-outlined size-48">
+                  videogame_asset
+                </span></h2>
+              <p>NOSTALGIA</p>
+              <p>¿Buscas un sistema que te permita abrir una ventana al pasado para revivir los juegos de tu infancia?
+              </p>
+            </div>
+          </div>
 
-  <section class="w-50 mx-auto text-center pt-5" id="intro">
-    <h1 class="p-3 fs-2 border-top border-3">Este es un espacio unico, para aprender y descubrir el antes de los
-      <span class="text-primary">VideoJuegos</span>
-    </h1>
+          <div class="col-md-4">
+            <div class="section-cards">
+              <h2 class="pt-2 encabezados"><span class="material-symbols-outlined size-48">
+                  add_reaction
+                </span></h2>
+              <p>CURIOSIDAD</p>
+              <p>¿Sientes curiosidad por los títulos de los que tanto has oído hablar pero por algún motivo aún desconoces? </p>
+            </div>
+          </div>
 
-    <p class="p-3 fs-4"><span class="text-primary">ExpertD.</span>
-      es un sitio en donde encontras tutoriales, reviews de productos, gameplays y novedades relacionadas con el mundo
-      de los
-      videojuegos</p>
-  </section>
-  <!--==============================================-->
-  <!-- FIN INTRO-->
-  <!--==============================================-->
-
-  <!--==============================================-->
-  <!-- ENTRADAS-->
-  <!--==============================================-->
-
-  <section class="container-fluid">
-    <div class="row w-75 mx-auto servicio-fila">
-      <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-3 icono-wrap">
-        <img src="https://picsum.photos/200?random=4" alt="Arcade" width="180" height="160">
-        <div>
-          <h3 class="fs-5 mt-1 px-4 pb-1">Juegos Arcade</h3>
-          <p class="px-4 pb-7">Los videojuegos de arcade o arcadia [1]son un tipo de videojuegos que originalmente
-            fueron
-            concebidos para las máquinas recreativas </p>
+          <div class="col-md-4 ">
+            <div class="section-cards">
+              <h2 class="pt-2 encabezados"><span class="material-symbols-outlined size-48">
+                  cardiology
+                </span></h2>
+              <P>PASION</P>
+              <p>¿Te apasiona el mundo de los juegos clásicos y quieres disfrutar de todo ello sin límites ni
+                complicaciones? </p>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-3 icono-wrap">
-        <img src="https://picsum.photos/200?random=5" alt="Arcade" width="180" height="160">
-        <div>
-          <h3 class="fs-5 mt-1 px-4 pb-1">Juegos Indie</h3>
-          <p class="px-4"> juego hecho por pocas personas y con un bajo presupuesto” Tal vez la definición de un indie
-            no venga por el lado de la comercialización, sino de quien lo crea.</p>
+        <div class="row">
+          <div class="col-md-12 my-4">
+            <div>
+              <p class="text-center">¡Has llegado al lugar indicado! Porque, al igual que tú, un día me pregunté cómo
+                podría disfrutar del
+                “retro gaming” sin invertir demasiado tiempo en emuladores, o grandes cantidades de dinero revolviendo
+                en
+                el
+                caprichoso mercado de la segunda mano.</p>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-3 icono-wrap">
-        <img src="https://picsum.photos/200?random=6" alt="Arcade" width="180" height="160">
-        <div>
-          <h3 class="fs-5 mt-1 px-4 pb-1">Juegos de plataforma</h3>
-          <p class="px-4">Un género muy popular en donde la principal misión consiste en conducir a un personaje dentro
-            de un escenario que presenta numerosas dificultades, incluyendo obstáculos, precipicios o enemigos.</p>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="border text-center p-4 banner-up">
+              <h2 class="encabezados">Y así nació arcadeone.com</h2>
+              <span>La guía definitiva con las mejores consolas retro y máquinas arcade de la actualidad</span>
+            </div>
+          </div>
         </div>
-      </div>
+        <hr>
+      </section>
 
-      <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-3 icono-wrap">
-        <img src="https://picsum.photos/200?random=7" alt="Arcade" width="180" height="160">
-        <div>
-          <h3 class="fs-5 mt-1 px-4 pb-1">Juegos De Carreras</h3>
-          <p class="px-4">Los videojuegos de carreras son aquellos en donde el jugador controla a un personaje o
-            vehículo que compite en una carrera contra otros vehículos a lo largo de una pista.</p>
+      <section class="Categorias">
+        <div class="row">
+          <div class="col-md-12r">
+            <div>
+              <h2 class="fs-3 pb-2">Categorías y tipos de consolas retro</h2>
+              <p>Lo primero que hay que saber es que existen diferentes tipos y que estos se pueden agrupar en cuatro
+                grandes categorías:</p>
+
+              <p class="lh-sm pb-2"> <b>Consolas originales:</b> Sistemas originales que parten desde la primera hasta
+                la
+                quinta generación de consolas, si bien también son consideradas algunas de la sexta generación. Dada su
+                antigüedad y escasez de unidades, solo se pueden encontrar en plataformas de venta online o en tiendas
+                de
+                segunda mano y, al igual que muchos de sus videojuegos, pagando un sobrecoste bastante alto.</p>
+              <p class="lh-sm">
+                <b>Consolas reeditadas:</b> Creadas con la tecnología actual, se inspiran en sistemas precursores y
+                funcionan a través de la emulación o la retrocompatibilidad. Entre ellas encontramos las réplicas o
+                clónicas
+                con cientos y/o miles de juegos incluidos, las de cartuchos retrocompatibles y las mini consolas
+                oficiales
+                que, aparte de las originales, son las preferidas por los coleccionistas.
+              </p>
+            </div>
+          </div>
         </div>
+
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: auto;">
+              <img src="css/img/arcade games.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#" class="btn btn-primary d-flex justify-content-center">GUíA DE MÁQUINAS ARCADE</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: auto;">
+              <img src="css/img/arcade games.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#" class="btn btn-primary d-flex justify-content-center">GUíA DE MÁQUINAS ARCADE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 mb-3">
+            <div>
+              <p class="lh-sm pb-2"> <b>Consolas chinas:</b> Estas también utilizan emuladores capaces de ejecutar
+                juegos
+                de
+                múltiples plataformas, incluyendo los de las icónicas máquinas recreativas, pero con el formato y tamaño
+                propios de una consola o un mando arcade. Aquí es donde podemos encontrar una mayor variedad de oferta y
+                modelos como las populares consolas arcade Pandora Box o las consolas retro portátiles.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div>
+              <p class="lh-sm">
+                <b>Consolas Raspberry:</b> Muchos jugadores prefieren montar su propio sistema de juegos retro en lugar
+                de
+                comprar uno prefabricado. Se puede crear fácilmente mediante un kit ya preparado, o comprar por separado
+                una
+                placa Raspberry Pi, una tarjeta SD para instalar emuladores y roms, una carcasa y un par de mandos.
+                Luego
+                se
+                puede usar como consola o integrarla en una máquina arcade.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div>
+              <h2 class="fs-3 pb-2 mb-3">Las mejores consolas retro de 2023</h2>
+              <p>
+                Existe una abrumadora variedad de modelos a la venta con una amplísima gama de precios. La buena noticia
+                es que he realizado el trabajo de búsqueda por ti: hablando con fabricantes, probando todo tipo de
+                sistemas de juegos retro, y viendo y leyendo cientos de opiniones. Así es como he conseguido seleccionar
+                solamente aquellas videoconsolas que disponen de la mejor relación calidad-precio. Por todo ello, con mi
+                experiencia y “pasión retro” tendrás la certeza de que… ¡elijas la que elijas, habrás elegido bien! 👍
+              </p>
+              <p>A continuación encontrarás una sección dedicada con las mejores retro consolas que puedes comprar,
+                clasificadas por tipo:</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="enlaces-externos mt-4">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card shadow-sm p-3 mb-2 bg-body rounded" style="width: auto;">
+              <img src="css/img/Consolas-retro-mejores_.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#" class="btn btn-primary d-flex justify-content-center">CONSOLAS RETRO CARTUCHOS</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card shadow-sm p-3 mb-2 bg-body rounded" style="width: auto;">
+              <img src="css/img/arcade games.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#" class="btn btn-primary d-flex justify-content-center">CONSOLAS RETRO CLONICAS</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card shadow-sm p-3 mb-2 bg-body rounded" style="width: auto;">
+              <img src="css/img/arcade games.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#" class="btn btn-primary d-flex justify-content-center">CONSOLAS RETRO MINI</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: auto;">
+              <img src="css/img/arcade games.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#" class="btn btn-primary d-flex justify-content-center">CONSOLAS RETRO PANDORA B</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: auto;">
+              <img src="css/img/arcade games.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#" class="btn btn-primary d-flex justify-content-center">CONSOLAS RETRO PORTÁTILES</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: auto;">
+              <img src="css/img/arcade games.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#" class="btn btn-primary d-flex justify-content-center">CREAR CONSOLA RASPBERRY</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Las mejores máquinas arcade de 2023</h2>
+            <p>
+              Las consolas retro y las máquinas arcade están estrechamente relacionadas, por eso aquí también tienen sus
+              secciones dedicadas. En la actualidad, las recreativas de tipo Bartop, Lowboy y Mini son las más
+              extendidas y buscadas. ¡Descubre las mejores! 🏆
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: auto;">
+              <img src="css/img/arcade games.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#" class="btn btn-primary d-flex justify-content-center">CREAR CONSOLA RASPBERRY</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: auto;">
+              <img src="css/img/arcade games.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#" class="btn btn-primary d-flex justify-content-center">CREAR CONSOLA RASPBERRY</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card shadow-sm p-3 mb-5 bg-body rounded" style="width: auto;">
+              <img src="css/img/arcade games.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#" class="btn btn-primary d-flex justify-content-center">CREAR CONSOLA RASPBERRY</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="py-4">
+    <div class="container align-items-center">
+      <div class="row">
+        <p class="col-md-6 pt-3">Todos los derechos reservados &copy;</p>
+        <ul class="col-md-2 ms-auto d-flex flex-row pt-1">
+          <li class="px-2"><a href="#"><i class="bi bi-facebook"></i></a></li>
+          <li class="px-2"><a href="#"><i class="bi bi-instagram"></i></a></li>
+          <li class="px-2"><a href="#"><i class="bi bi-twitter-x"></i></a></li>
+
+        </ul>
       </div>
     </div>
-  </section>
-
-  <!--==============================================-->
-  <!--  FIN ENTRADAS-->
-  <!--==============================================-->
-
-  <!--==============================================-->
-  <!--NOVEDADES-->
-  <!--==============================================-->
-  <section>
-    <div class="w-75 m-auto text-center" id="novedades">
-      <h1 class="fs-2 p-3 mb-4 border-top border-3">Novedades del <span class="text-primary">
-        Mundo Gamer</span></h1>
-      <p class="fs-4">
-        Un videojuego no necesariamente debe pertenecer a un único género, muchos títulos presentan elementos combinados
-        de dos o más géneros distintos, en estos casos se considera al género que predomina para categorizarlo.
-      </p>
-    </div>  
-
-    <div class="card-group w-75 m-auto p-4">
-      <div class="card">
-        <img src="https://picsum.photos/900/200?random=8" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Título de la tarjeta</h5>
-          <p class="card-text">Esta es una tarjeta más amplia con texto de apoyo a continuación como introducción natural a contenido adicional. Este contenido es un poco más largo.</p>
-          <p class="card-text"><small class="text-muted">Última actualización hace 3 minutos</small></p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="https://picsum.photos/900/200?random=9" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Título de la tarjeta</h5>
-          <p class="card-text">Esta tarjeta tiene texto de apoyo a continuación como una introducción natural a contenido adicional.</p>
-          <p class="card-text"><small class="text-muted">Última actualización hace 3 minutos</small></p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="https://picsum.photos/900/200?random=10" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Título de la tarjeta</h5>
-          <p class="card-text">Esta es una tarjeta más amplia con texto de apoyo a continuación como introducción natural a contenido adicional. Esta tarjeta tiene un contenido aún más largo que la primera para mostrar esa acción de igual altura.</p>
-          <p class="card-text"><small class="text-muted">Última actualización hace 3 minutos</small></p>
-        </div>
-      </div>
-    </div>   
-  </section>
-
-  <!--==============================================-->
-  <!--FIN NOVEDADES-->
-  <!--==============================================-->
-
-  
-    <footer class="container-fluid bg-primary d-Flex justify-content-center ">
-      <p class="text-center text-light mb-0 p-2 fs-6">Diseñado por Diego Ramírez Martínez &copy; 2023</p>
-    </footer>
-  
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
