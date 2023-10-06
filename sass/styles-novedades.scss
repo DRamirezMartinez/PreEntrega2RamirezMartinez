@@ -1,0 +1,114 @@
+/*///////////////BODY///////////////*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+   
+    overflow-x: hidden; /*para que el texto no sobrepase el cuadro o elemento que lo contiene*/
+}
+
+.banner-up{
+    background: #293462;
+}
+
+.logo-item{   
+    padding-top: 20px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.encabezado{
+    background: #293462;
+}
+
+.subtitulos{
+    color: #EA5455;
+}
+/*///////////////MENU///////////////*/
+
+.navbar{
+    background: #293462;
+}
+
+#menu a{
+    font-size: 18;
+    font-weight: bold;    
+}
+
+#menu li > a:hover{
+    color: #1CD6CE;
+}
+
+
+/*///////////////MENU///////////////*/
+#menu a{
+    font-size: 18;
+    font-weight: bold;    
+}
+
+.img-pandora{
+    width: 250px;
+}
+
+.pandora-checked{
+    color: rgb(24, 210, 24);
+}
+
+.pandora-nonchecked{
+    color: #EA5455;
+}
+
+footer{
+    background-color: #293462;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.bi-facebook, .bi-instagram, .bi-twitter-x{
+    font-size: 30px;
+    color: #1CD6CE;
+}
+
+
+/*====================MEDIA QUERIESPANTALLA mediana===================*/
+
+    
+
+/*====================MEDIA QUERIESPANTALLA SM===================*/
+@media (max-width:768px){
+    #intro, #novedades{
+        width: 90% !important;
+    }
+
+    .frase{
+        text-align: center;
+        font-size: 12px !important;
+    }
+
+    #novedades p{
+        display: none;
+    }
+
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;       
+    }
+
+   
+    
+}
+
+/*====================MEDIA QUERIESPANTALLA EXTRA SM===================*/
+
+@media (max-width:576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        padding-top: 20px;        
+        justify-content: center !important;
+         
+        
+    }
+}
