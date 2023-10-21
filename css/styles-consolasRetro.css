@@ -1,0 +1,84 @@
+/*///////////////BODY///////////////*/
+/* line 3, ../../../../../../../../../../../../../Users/diegoramirez/Documents/coder-entrega2/coder-entrega2/sass/styles-consolasRetro.scss */
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  /*para que el texto no sobrepase el cuadro o elemento que lo contiene*/
+}
+
+/* line 9, ../../../../../../../../../../../../../Users/diegoramirez/Documents/coder-entrega2/coder-entrega2/sass/styles-consolasRetro.scss */
+.banner-up {
+  background: #293462;
+}
+
+/* line 13, ../../../../../../../../../../../../../Users/diegoramirez/Documents/coder-entrega2/coder-entrega2/sass/styles-consolasRetro.scss */
+.logo-item {
+  padding-top: 20px;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+/* line 19, ../../../../../../../../../../../../../Users/diegoramirez/Documents/coder-entrega2/coder-entrega2/sass/styles-consolasRetro.scss */
+.encabezado {
+  background: #293462;
+}
+
+/*///////////////MENU///////////////*/
+/* line 26, ../../../../../../../../../../../../../Users/diegoramirez/Documents/coder-entrega2/coder-entrega2/sass/styles-consolasRetro.scss */
+.navbar {
+  background: #293462;
+}
+
+/* line 30, ../../../../../../../../../../../../../Users/diegoramirez/Documents/coder-entrega2/coder-entrega2/sass/styles-consolasRetro.scss */
+#menu a {
+  font-size: 18;
+  font-weight: bold;
+}
+
+/* line 35, ../../../../../../../../../../../../../Users/diegoramirez/Documents/coder-entrega2/coder-entrega2/sass/styles-consolasRetro.scss */
+#menu li > a:hover {
+  color: #1CD6CE;
+}
+
+/*/////////////SLIDER//////////////*/
+/* line 44, ../../../../../../../../../../../../../Users/diegoramirez/Documents/coder-entrega2/coder-entrega2/sass/styles-consolasRetro.scss */
+.encabezados, hr {
+  color: #1CD6CE;
+}
+
+/* line 48, ../../../../../../../../../../../../../Users/diegoramirez/Documents/coder-entrega2/coder-entrega2/sass/styles-consolasRetro.scss */
+footer {
+  background-color: #293462;
+  color: white;
+}
+
+/* line 53, ../../../../../../../../../../../../../Users/diegoramirez/Documents/coder-entrega2/coder-entrega2/sass/styles-consolasRetro.scss */
+ul {
+  list-style: none;
+}
+
+/* line 58, ../../../../../../../../../../../../../Users/diegoramirez/Documents/coder-entrega2/coder-entrega2/sass/styles-consolasRetro.scss */
+.bi-facebook, .bi-instagram, .bi-twitter-x {
+  font-size: 30px;
+  color: #1CD6CE;
+}
+
+/*====================MEDIA QUERIESPANTALLA SM===================*/
+@media (max-width: 768px) {
+  /* line 69, ../../../../../../../../../../../../../Users/diegoramirez/Documents/coder-entrega2/coder-entrega2/sass/styles-consolasRetro.scss */
+  #intro, #novedades {
+    width: 90% !important;
+  }
+}
+
+/*====================MEDIA QUERIESPANTALLA EXTRA SM===================*/
+@media (max-width: 576px) {
+  /* line 79, ../../../../../../../../../../../../../Users/diegoramirez/Documents/coder-entrega2/coder-entrega2/sass/styles-consolasRetro.scss */
+  .icono-wrap {
+    flex-wrap: wrap;
+    padding-top: 20px;
+    justify-content: center !important;
+  }
+}
+
+/*# sourceMappingURL=styles-consolasRetro.css.map */
